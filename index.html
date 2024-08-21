@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pequenos Guerreiros</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="main-header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/pequenosguerreiros.png" alt="Logo do Projeto Pequenos Guerreiros">
+            </a>
+        </div>
+        <nav>
+            <div class="botaoMENU">
+                <i class="bi bi-list"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="parceiros.html">Parceiros</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Compact Header -->
+    <header id="compact-header">
+        <div class="botaoMENU">
+            <i class="bi bi-list"></i>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/homeimagem1.jpg" alt="Banner 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/homeimagem2.jpg" alt="Banner 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/homeimagem3.jpeg" alt="Banner 3">
+                </div>
+                <!-- Adicione mais slides conforme necessário -->
+            </div>
+            <div class="hero-content">
+                <h1>Bem-vindo ao Projeto Pequenos Guerreiros</h1>
+                <p>Junte-se a nós em nossa missão e descubra produtos feitos com carinho e amor.</p>
+                <a href="produtos.html" class="btn-primary">Veja Nossos Produtos</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>Sobre o Projeto</h2>
+            <p>“Começamos em 2014 com 5 crianças em tratamento de quimioterapia, realizando passeios, visitas, aniversários e outras atividades. Com isso, acreditamos que pequenos gestos de gentileza podem mudar a vida de alguém, nosso combustível é a alegria de nossos pequenos! Hoje, atendemos mais de 80 crianças de Uberlândia e região, entre tratamento de quimioterapia, diagnóstico de doenças raras e cuidados paliativos.“</p>
+        </section>
+        <section class="testimonials">
+            <h2>Depoimentos</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>“Esse projeto é um projeto que nasceu no coração da Adriana, e quando ela estava pensando em desistir a Sophia deu um novo sentido pro projeto Pequenos Guerreiros. E o mais bacana disso tudo é que a Adriana ama todas as crianças como filhos dela, e não deixa faltar nada, sempre fazia festas, distrações e dava tudo de bom para a Sophia. E esse projeto reacende a alegria delas fora do hospital, estando sempre disposto a ajudar.”</p>
+                    <h3>- Franciele </h3>
+                    <p>Mãe da eterna princesa Sophia Hadassa</p>
+                </div>
+                <div class="testimonial">
+                    <p>“Fazemos parte do projeto “Pequenos Guerreiros”, sou muito grata mesmo a tudo que o projeto já fez por nós até hoje. Dentro do projeto temos o contato com outras mães que passam por uma situação parecida com a nossa, trocando experiências, tem um apoio. O projeto proporciona umas festinhas, encontros, proporcionando uma maior socialização. Sou grata de coração, muito obrigada!”</p>
+                    <h3>- Rosana</h3>
+                    <p>Mãe do príncipe Heitor Gabriel</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Esse projeto trouxe para ela uma perspectiva de que a vida dela não tinha acabado ali, que ela ainda tinha o que viver, que a vida dela não se resumia ao hospital. A Lowise amava participar dos eventos, participar das festas, vestir fantasias, de se sentir igual, todos carequinhas.”</p>
+                    <h3>- Larissa Maciel</h3>
+                    <p>Mãe da eterna princesa Lowise</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Entre em Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Telefone: (34) 1234-5678</p>
+                    <p>Email: contato@pequenosguerreiros.org</p>
+                    <p>Endereço: Av. Vasconcelos Costa, 1500 - Osvaldo Rezende, Uberlândia - MG, Brasil</p>
+                </div>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit" class="btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Projeto Pequenos Guerreiros. Todos os direitos reservados.</p>
+            <p>Endereço: Av. Vasconcelos Costa, 1500 - Osvaldo Rezende, Uberlândia - MG, Brasil</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10785.930694476647!2d-48.29232792628057!3d-18.916547451860467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93653c5b8a2a2e2%3A0x23a29f7d469ded1e!2sAv.%20Vasconcelos%20Costa%2C%201500%20-%20Osvaldo%20Rezende%2C%20Uberl%C3%A2ndia%20-%20MG%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1653997909791!5m2!1spt-BR!2sbr"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/SeuPerfil" target="_blank"><i class="bi bi-facebook"></i></a>
+                
+                <a href="https://www.instagram.com/SeuPerfil" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Slideshow -->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Muda a imagem a cada 3 segundos
+        }
+    </script>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+        document.querySelector('.botaoMENU').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+
+        // JavaScript para esconder o cabeçalho principal e mostrar o compacto ao rolar a página
+        let mainHeader = document.getElementById('main-header');
+        let compactHeader = document.getElementById('compact-header');
+        let previousScrollPosition = window.pageYOffset;
+
+        window.onscroll = function () {
+            let currentScrollPosition = window.pageYOffset;
+            if (previousScrollPosition > currentScrollPosition) {
+                mainHeader.style.top = "0";
+                compactHeader.style.top = "-60px";
+            } else {
+                mainHeader.style.top = "-80px";
+                compactHeader.style.top = "0";
+            }
+            previousScrollPosition = currentScrollPosition;
+        }
+    </script>
+</body>
+
+</html>
